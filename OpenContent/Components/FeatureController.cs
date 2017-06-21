@@ -195,7 +195,7 @@ namespace Satrabel.OpenContent.Components
             }
             else
             {
-                // With a signle template we don't want to identify the content by id.
+                // With a single template we don't want to identify the content by id.
                 url = TestableGlobals.Instance.NavigateURL(modInfo.TabID, ps, "");
             }
 
